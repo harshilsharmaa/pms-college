@@ -2,7 +2,6 @@ import React from 'react';
 import { Link, } from 'react-router-dom'
 import { logout } from '../../Actions/user'
 import { useDispatch, useSelector } from 'react-redux'
-import Avatar from "@material-ui/core/Avatar";
 const Navbar = () => {
 
     const { user} = useSelector(state => state.user);
@@ -37,15 +36,7 @@ const Navbar = () => {
                             <li className="nav-item dropdown mr-0 mx-5">
 
 
-                                    <Link to='/profile' title="Profile">
-                                    <Avatar
-
-                                        alt="Profile"
-                                        src="/broken-image.jpg"
-                                        >
-                                    </Avatar>
-
-                                </Link>
+                                    <Link to='/profile' title="Profile">Profile</Link>
                             </li>
                             <li className="nav-item dropdown mr-0">
 
