@@ -1,0 +1,11 @@
+.verify-btn{
+    background: none;
+    color: blue;
+    outline: none;
+    border: none;
+}
+
+.verify-btn:hover{
+    color: #00bcd4;
+    text-decoration: underline;
+}

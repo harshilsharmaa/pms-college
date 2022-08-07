@@ -1,0 +1,36 @@
+.table-box{
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-height: 75vh;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+
+.table-box table{
+    width: 130%;
+}
+
+.table-box table th{
+    background-color: #f5f5f5;
+    text-align: center;
+    font-size: large;
+}
+
+.table-box table td{
+    text-align: center;
+}
+
+
+
+.dropdown-menu{
+    height: 100px;
+    overflow-y: scroll;
+    width: 40px;
+    text-align: center;
+}
+
+.dropdown-menu li:hover{
+    background-color: #f5f5f5;
+    cursor: pointer;
+}

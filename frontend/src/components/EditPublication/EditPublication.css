@@ -1,0 +1,15 @@
+.editPublication{
+    width: 40%;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    margin-top: 5%;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    padding: 0.5rem;
+    border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)!important;
+    border-radius: var(--bs-border-radius);
+}
+
+.modal-footer{
+    display: flex;
+    justify-content: space-evenly;
+}

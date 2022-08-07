@@ -1,0 +1,22 @@
+.clear-filters{
+    background: none;
+    border: none;
+    outline: none;
+    color: blue;
+}
+
+.clear-filters:hover{
+    color: rgba(0, 0, 255, 0.74);
+}
+
+.faculty-btn{
+    background: none;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.faculty-btn:hover{
+    background-color: rgba(204, 204, 204, 0.205);
+}
